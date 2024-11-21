@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Parcial 3 - Registro de Motos</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            background: url('https://www.bmw-motorrad.com.mx/content/dam/bmwmotorradnsc/common/multiimages/images/models/sport/s1000rr/2022/nsc-s1000rr-P0N3H-multiimage-2560x1440.jpg.asset.1719227289083.jpg.16_10_1920.jpg') no-repeat center center;
+            background-size: cover;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            color: #fff; 
+        }
+        .overlay {
+            background-color: rgba(0, 0, 0, 0.5);
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+        }
+        .text-section {
+            width: 400px;
+            padding: 40px;
+            margin-right: 20px;
+            color: #fff;
+        }
+        .text-section h2 {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .text-section h4 {
+            font-size: 20px;
+            font-weight: normal;
+            margin-bottom: 20px;
+        }
+        .btn-light-custom {
+            background-color: rgba(255, 255, 255, 0.1);
+            color: #fff;
+            border: 1px solid #fff;
+            width: 100%;
+            margin-top: 10px;
+        }
+        .btn-light-custom:hover {
+            background-color: rgba(255, 255, 255, 0.3);
+        }
+    </style>
+</head>
+<body>
+    <div class="overlay">
+        <div class="text-section">
+            <h2>Proyecto Parcial 3</h2>
+            <h4>Registro de Motos</h4>
+            <p>Bienvenido al sistema de registro de motos. Aquí puedes agregar nuevas motos o ver los registros existentes.</p>
+            <a href="jsp/formulario.jsp" class="btn btn-light-custom btn-lg">Nueva Moto</a>
+            <a href="jsp/mostarMotos.jsp" class="btn btn-light-custom btn-lg">Mostrar Registros</a>
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
